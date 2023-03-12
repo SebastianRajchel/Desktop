@@ -1,0 +1,32 @@
+* {box-sizing: border-box;}
+    body {
+        margin: 0;
+        padding: 0 0;
+        font-family: "Inter", sans-serif;
+    }
+    header {
+        position: sticky;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color:#f56767; 
+        box-shadow: #f5efef;
+        padding: 20px 120px;
+        z-index: 50;
+        
+    }
+    header nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        gap: 20px;
+    }
+    header nav ul li a {
+        color: #f5efef;
+        text-decoration: none;
+        font-weight: 400;
+    }

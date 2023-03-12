@@ -3,21 +3,24 @@
 <head>
  <meta charset="utf-8" />
  <title>Laboratoria1</title>
+ <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 <header>
  <h1>Sebastian Rajchel</h1>
+ <nav>
  <ul>
     <li>
         <a href="./index.html">Strona głowna</a>
     </li>
     <li>
-        <a href="./seriale.html">Ulubione książki</a>
+        <a href="./seriale.html">Ulubione seriale</a>
     </li>
     <li>
         <a href="./filmy.html">Ulubione flimy</a>
     </li>
 </ul>
+</nav>
 </header>
 <main>
     <section>
@@ -35,7 +38,8 @@
         </p>
     </article>
     <article>
-        <table> 
+        <table border="2px"> 
+
             <h3>Moja ścieżka nauki</h3>
             <th>Okres nauki</th>
             <th>Nazwa szkoły</th>
@@ -54,9 +58,49 @@
         </table>
     </article>
     <article>
-        <table>
-            <tr></tr>
-        </table>
+        <table border="2px">
+            <tr>
+                <td></td>
+                <td rowspan="2"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2" rowspan="2"></td>
+       
+            </tr>
+            <tr>
+                <td></td>
+               
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td></td>
+            </tr>
+    </article>
+
+    <article>
+        <h3>Zapisz się!</h3>
+        <form action="*">
+            <label>Nazwisko</label> <input type="text" name="nazwisko" />
+        </br>
+            <label>E-mail</label> <input type="text" name="email" />
+        </br>
+            <label for="checkbox">Czy chcesz otrzymywać wiadomość? </label>
+            <input type="checkbox" name="checkbox" value="wartość" />
+        </br>
+            <label for="radio">Czy chcesz otrzymywać 10% zniżki? </label>
+            <input type="radio" name="checkbox" value="wartość" />
+        </br>
+            <label for="data">Wybierz pierwszy dzień subskrypcji: </label>
+            <input type="date" name="data" >
+        </br>
+            <input type="submit" name="submit" value="Subskrybuj!" >
+            </form>
     </article>
 </main>
 
